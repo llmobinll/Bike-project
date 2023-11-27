@@ -1,0 +1,187 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  /* height: 100%; */
+  background-image: linear-gradient(#fc5e55, #fa4083);
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./image-lion-background.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: auto;
+  font-family: "Open Sans", sans-seri;
+}
+.container {
+  width: 1024;
+  min-height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid lightgray;
+}
+nav {
+  margin-left: 550px;
+}
+
+.navbar {
+  display: inline-block;
+  color: white;
+  font-family: "Playfair Display", serif;
+  padding: 11px 25px;
+  border: 1px solid #fff;
+  position: relative;
+  text-decoration: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  text-align: center;
+  padding-top: 20px;
+  margin-left: -50px;
+}
+.dropdown .navbar {
+  margin-bottom: 8px;
+  min-width: 140px;
+}
+.navbar:hover .dropdown {
+  display: block;
+}
+
+.first-obj {
+  display: flex;
+  min-height: 450px;
+}
+.intro-text {
+  color: #fff;
+  width: 580px;
+  padding-top: 100px;
+  flex-direction: 2;
+}
+.intro-text h1 {
+  font-size: 3.25rem;
+  margin-bottom: 1.5rem;
+  font-family: "Open Sans";
+}
+.intro-text p {
+  margin-bottom: 0.75px;
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+.mybutton {
+  margin-top: 20px;
+  width: 140px;
+  padding: 12px 20px 12px 20px;
+  border: #fff;
+  color: #fa4083;
+  box-shadow: 0px 1px 2px black;
+  border-radius: 2px;
+  transition: 0.5s all;
+}
+.mybutton:hover {
+  background-color: rgb(36, 207, 150);
+  cursor: pointer;
+}
+.intro-img {
+  margin-top: 110px;
+  margin-left: 100px;
+}
+.cards {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+.card1 {
+  width: 300px;
+  height: 290px;
+  background: url(./image-background-card1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card1 i {
+  width: 600px;
+  height: 600px;
+  z-index: 1;
+}
+.card2 {
+  width: 300px;
+  height: 290px;
+  background: url(./image-background-card2-b.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 55px;
+}
+.card3 {
+  width: 300px;
+  height: 290px;
+  background: url(./image-background-card3-b.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 55px;
+}
+.cards a {
+  color: #fff;
+  text-decoration: none;
+}
+.card-text {
+  /* padding-top: 140px; */
+  text-align: center;
+}
+.card-text h2 {
+  font-size: 30px;
+  padding-bottom: 5px;
+}
+.delivery {
+  padding-top: 30px;
+  padding-left: 100px;
+}
+.wrench {
+  padding-top: 30px;
+  padding-left: 80px;
+}
+.phone {
+  padding-top: 30px;
+  padding-left: 80px;
+}
+
+.text-box {
+  display: grid;
+  grid-template-columns: 400px 400px;
+  column-gap: 140px;
+  row-gap: 60px;
+  margin-bottom: 100px;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.box {
+  border: #fff 1px solid;
+  width: 350px;
+  height: 130px;
+  padding: 50px 60px 100px 60px;
+  line-height: 20px;
+}
+.box :last-child {
+  font-size: 0.8rem;
+  padding-top: 10px;
+  padding-left: 10px;
+}
